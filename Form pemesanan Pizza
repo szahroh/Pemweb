@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Pemenasan</title>
+    </head>
+    <body>
+        <h1>Form Pemesanan FizzaKU </h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Distinctio, veritatis sint, voluptatum dicta qui quis ut praesentium impedit aliquid autem 
+         tempora alias vitae sed dolorum harum quibusdam delectus adipisci porro!</p>
+         <p> You'r Information :</p>
+         <form method ="post" action ="http://blackgoosebistro.com/pizza.php">
+            <lable for = "customername">Nama : </lable>
+            <input type ="text" name = "customername"
+            id="customername">
+            <br><br>
+
+            <label for="Telephone">Alamat : </label>
+            <input type ="text" name="addres"
+            id="address">
+            <br><br>
+
+            <label for="Telephone">No Telephone : </label>
+            <input type ="number" name="Telephone"
+            id="Telephone">
+            <br><br>
+
+            <label for="Email">Email : </label>
+            <input type ="email" name="Email"
+            id="Email">
+            <br><br>
+            <label for ="Intructrions"> Deskripsi 
+            Pemesanan </label><br>
+            <textarea name="Intructrions" 
+            id="Intructrions" placeholder="Tidak
+             boleh lebih dari 400 karakter"
+            maxlength="400"cols="40"rows="5"></textarea>
+            
+
+
+
+
+
+            <h4>Desain FizzaKU</h4>
+            <p>Spek Pizza</p>
+            <p>Crust (Pilih satu)</p>
+
+            <input type="radio" name="crust"
+             id="crust1"velue="classic white" required  autofocus>
+            <label for="crust1">Classic White</label>
+            <br>
+
+            <input type="radio" name="crust"
+             id="crust2"velue="Classic white"required>
+            <label for="crust2">Multigrain</label>
+            <br>
+
+            <input type="radio" name="crust" 
+            id="crust3"velue="cheese"required>
+            <label for="crust3">Cheese</label>
+
+            <p>Topping (bisa lebih dari satu):</p>
+            <input type="checkbox" name="toppings[]"
+            id="topping1" velue="nanas"checked>
+            <label for="topping1">nanas</label>
+            <br>
+            <input type="checkbox" name="toppings[]"
+            id="topping2"velue="stroberi">
+            <label for="topping2">stroberi</label>
+            <br>
+            <input type="checkbox" name="toppings[]"
+            id="topping3"velue="keju">
+            <label for="topping3">keju</label>
+            <br>
+            <input type="checkbox" name="toppings[]"
+            id="topping4"velue="madu">
+            <label for="topping4">madu</label>
+            <br>
+            <label for="number">Jumlah FizzaKU</label>
+            <select name="number" id="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <br>
+            <input type="submit" value="Bring me a pizza">
+            <input type="reset" velue="reset">
+            </textarea>
+        </form>
+
+    </body>
+</html>
