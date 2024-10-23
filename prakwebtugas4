@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas4</title>
+    <script src="https://kit.fontawesome.com/6b06d28ecb.js" crossorign="anobmous">
+
+    </script>
+</head>
+<style>
+    section{
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .g1{
+        height: 70px;
+        margin-right: 8px;
+        border: 2px solid black;
+    }
+    .g2{
+        height: 70px;
+        border: 2px solid black;
+    }
+     a i{
+        font-size: 30px;
+        color:black;
+        
+    }
+    
+</style>
+<body>
+    <fieldset style="margin: 0px 250px;">
+        <legend>I4F - Directory Profile Page</legend>
+        <header>
+            <div style="display : flex;justify-content: space-between;">
+                <div style="border:2px solid black;padding:10px;">
+                    <img src="silvi.jpg"alt ="Profile Image" style="width: 140px; height: auto; ">
+                </div>
+                <div style="margin:0px 70px 0px 20px;">
+                    <h1 style="line-height: 10px;"> Profile Name</h1>
+                    <h3>Silvia Zahrodiniah</h3>
+                    <p>Alamat : Kec.Tanjungsari,Kab.Bogor,Jawa Barat</p>
+                    <p> Email   :<a href="mailto : ailviazahroh11@gmail.com">ailviazahroh11@gmail.com</a></p>
+                    <p> Thelephone :<a href="tel: +623128325883">+6283128325883</a></p>
+                </div>
+                <div style="text-align:center;">
+                    <h3><u>Sosmed</u></h3>
+                    <div>
+                    <a href="https://istagram.com/s_zahrohh"><i class="fa-brands fa-square-instagram"></i></a><br>
+                    <a href="https://threads.com/s_zahrohh"><i class="fa-brands fa-square-threads"></i></a><br>
+                    <a href="https://github.com/szahroh"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main style="padding :30px;">
+            <article>
+                <section>
+                    Saya, Silvia Zahrodiniah , Mempunyai Pengalaman Sebagai Ketua Osis dan sebagai
+                    juru adat. Tentunya mempunyai kemampuan di bidang publik speaking dan
+                    mampu membuat surat menyurat dan juga mengelola akun media sosial berdasarkan
+                    pengalaman saya menjadi ketua osis dan Judat Ambalan RA Kartini kemudian  mampu
+                    mengoprasikan microsoft word, exel dan powerpoint.  
+                </section>
+
+                <section>
+                    Berikut Adalah pengalamn organisasi say apada saat SMA Pada tahun 2022 sampai dengan tahun 2023 saya menjadi ketua osis dengan 
+                    suskses mebuat event sebanyak 10 event dengan 1 event tingkat kabupaten dan juga aktif dalam beberapa extra sekolah yaitu Forum 
+                    osis jawa barat sebagai peserta begitu juga dengan Forum komunikasi osis kabupaten bogor sebagai peserta. dan Pada tahun 2022 
+                    sampai dengan tahun 2022 saya menjabat sebagai juru adat ambalan siti zaenab dengan berhasil menerapkan kamis bersetengah leher jadi
+                     seluruh siswa siswi SMAN 1 Tanjungsari harus menggunakan kacu atau setengah leher dan saya juga telah menjadi penegak garuda yaitu 
+                     pada tahap 3 tahun 2023
+
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div style="display:flex;justify-content:center;">
+                <fieldset>
+                    <legend>Youtube Embed</legend>  
+                    <iframe height="140px" src="https://www.youtube.com/embed/sK41eq5xwpc?si=wTIox_GD4RC5TkuP" title="YouTube video player" frameborder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </fieldset>
+                <fieldset>
+                    <legend>Blog Thumbnail</legend> 
+                    
+                    <div style="display:flex ;justify-content:center;">
+                        <div>
+                        <a href="https://stikes.adila.ac.id/2024/07/11/pelatihan-bonels-prodi-kebidanan-program-d3-stikes-adila/">
+                            <img src="https://stikes.adila.ac.id/wp-content/uploads/2024/07/32db6031-cee8-4424-bc25-229705c7ff0e.jpeg"alt="Thumbnail" class="g1">
+                        </a>
+                        </div> 
+                        <div>
+                        <a href="https://stikes.adila.ac.id/2024/07/17/orientasi-dan-persamaan-persepsi-mahasiswa-prodi-kebidanan-program-diii-stikes-adila-di-kota-bandar-lampung/">
+                            <img src="https://stikes.adila.ac.id/wp-content/uploads/2024/07/c9cbe867-59a5-4307-adf0-4973c7e4defa.jpeg" alt="Thumbnail"class="g2">
+                        </a>
+                        </div>
+                    </div>
+                    <div style="display:flex ;justify-content:center;">
+                        <div>
+                            <a href="https://stikes.adila.ac.id/2024/07/11/pelatihan-bonels-prodi-kebidanan-program-d3-stikes-adila/">
+                                <img src="https://stikes.adila.ac.id/wp-content/uploads/2024/07/32db6031-cee8-4424-bc25-229705c7ff0e.jpeg"alt="Thumbnail" class="g1">
+                            </a>
+                        </div> 
+                        <div>
+                            <a href="https://stikes.adila.ac.id/2024/07/17/orientasi-dan-persamaan-persepsi-mahasiswa-prodi-kebidanan-program-diii-stikes-adila-di-kota-bandar-lampung/">
+                                <img src="https://stikes.adila.ac.id/wp-content/uploads/2024/07/c9cbe867-59a5-4307-adf0-4973c7e4defa.jpeg" alt="Thumbnail"class="g2">
+                            </a>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Attachments</legend>  
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i>"</td>
+                            <td><a href="silvi.jpg" download="fotoSZD">Foto SZD</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i>"</td>
+                            <td><a href="silvi.jpg" download="fotoivi">Foto ivi</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i>"</td>
+                            <td><a href="silvi.jpg" download="fotovia">Foto via</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i>"</td>
+                            <td><a href="silvi.jpg" download="fotosilvi">Foto silvi</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-image"></i>"</td>
+                            <td><a href="silvi.jpg" download="fotozahro">Foto zahro</a></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+        </footer>
+    </fieldset>
+</body>
+</html>
