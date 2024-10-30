@@ -1,0 +1,64 @@
+h1{
+    color: rgb(248, 248, 248);
+    text-align: center;
+
+}
+#header{
+    background-color: rgb(70, 131, 97);
+    height: 125px;
+    padding: 10px;
+}
+.desk{
+    text-align: center;
+}
+.menu li{
+    display: inline;
+    margin: 200px;
+    
+}
+.menu {
+    text-align: center;
+}
+.menu a:hover{
+    font-weight: bold;
+    color: brown;
+}
+.isi::first-letter{
+    color:rgb(233, 243, 236);
+    font-size: 40px;
+}
+.gambar img{
+    width: 200px;
+    justify-content: center;
+}
+.koleksi img {
+    width: 23%;
+}
+h2{
+    color: rgb(3, 144, 111);
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+    text-align: justify;
+}
+h2{
+    background-color: rgb(74, 112, 99);
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h4{
+    background-color: rgb(80, 151, 80);
+}
+h3{
+    background-color: aliceblue;
+    border: 5px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(6, 96, 96);
+    width: 200px;
+}
+
+
+  
