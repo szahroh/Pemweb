@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Seminar</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h4 class="text-primary mb-3">Kegiatan / Create New Seminar/Workshop</h4>
+        <div class="card">
+            <div class="card-header bg-light">
+                <h5 class="mb-0">Create New Seminar</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="kode">Kode</label>
+                        <input type="text" class="form-control" id="kode" placeholder="Masukkan kode kegiatan">
+                    </div>
+                    <div class="form-group">
+                        <label for="namaKegiatan">Nama Kegiatan</label>
+                        <input type="text" class="form-control" id="namaKegiatan" placeholder="Masukkan nama kegiatan">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="tanggalMulai">Tanggal Mulai</label>
+                            <input type="date" class="form-control" id="tanggalMulai" value="2016-05-12">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="tanggalAkhir">Tanggal Akhir</label>
+                            <input type="date" class="form-control" id="tanggalAkhir" value="2016-05-12">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="biaya">Biaya</label>
+                        <input type="number" class="form-control" id="biaya" placeholder="Masukkan biaya kegiatan">
+                    </div>
+                    <div class="form-group">
+                        <label for="tempat">Tempat</label>
+                        <input type="text" class="form-control" id="tempat" placeholder="Masukkan tempat kegiatan">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="latitude">Latitude</label>
+                            <input type="text" class="form-control" id="latitude" placeholder="Masukkan latitude">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="longitude">Longitude</label>
+                            <input type="text" class="form-control" id="longitude" placeholder="Masukkan longitude">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="jenisKegiatan">Jenis Kegiatan</label>
+                        <select class="form-control" id="jenisKegiatan">
+                            <option value="" disabled selected>Select</option>
+                            <option value="Seminar">Seminar</option>
+                            <option value="Workshop">Workshop</option>
+                            <option value="Pelatihan">Pelatihan</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pic">PIC</label>
+                        <input type="text" class="form-control" id="pic" placeholder="Masukkan nama PIC">
+                    </div>
+                    <div class="form-group">
+                        <label for="deskripsi">Deskripsi</label>
+                        <textarea class="form-control" id="deskripsi" rows="4" placeholder="Masukkan deskripsi kegiatan"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Simpan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
