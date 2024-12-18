@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Seminar</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h3 class="text-primary mb-4">Seminar Rembulan #1 September 2017</h3>
+        <div class="card">
+            <div class="card-header bg-light">
+                <h4 class="mb-0">Registrasi Seminar / Workshop</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="namaLengkap">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="namaLengkap" placeholder="Masukkan nama lengkap">
+                    </div>
+                    <div class="form-group">
+                        <label for="tempatLahir">Tempat Lahir</label>
+                        <input type="text" class="form-control" id="tempatLahir" placeholder="Masukkan tempat lahir">
+                    </div>
+                    <div class="form-group">
+                        <label for="tanggalLahir">Tanggal, Lahir</label>
+                        <input type="date" class="form-control" id="tanggalLahir" value="2016-05-12">
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="lakiLaki" value="Laki-Laki" checked>
+                            <label class="form-check-label" for="lakiLaki">Laki-Laki</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="perempuan" value="Perempuan">
+                            <label class="form-check-label" for="perempuan">Perempuan</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+                    </div>
+                    <div class="form-group">
+                        <label for="statusPeserta">Status Peserta</label>
+                        <select class="form-control" id="statusPeserta">
+                            <option value="" selected disabled>Select</option>
+                            <option value="mahasiswa">Mahasiswa</option>
+                            <option value="umum">Umum</option>
+                            <option value="profesional">Profesional</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
